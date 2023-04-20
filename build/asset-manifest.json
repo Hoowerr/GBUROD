@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/GBUROD/static/css/main.035467f0.css",
+    "main.js": "/GBUROD/static/js/main.bb2bd178.js",
+    "static/media/repubcancercenter.png": "/GBUROD/static/media/repubcancercenter.3bf2109237412e6f6ea5.png",
+    "index.html": "/GBUROD/index.html",
+    "main.035467f0.css.map": "/GBUROD/static/css/main.035467f0.css.map",
+    "main.bb2bd178.js.map": "/GBUROD/static/js/main.bb2bd178.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.035467f0.css",
+    "static/js/main.bb2bd178.js"
+  ]
+}
