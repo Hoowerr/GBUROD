@@ -1,0 +1,15 @@
+.callCenter {
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 14px;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-bottom: 58px;
+}

@@ -1,0 +1,13 @@
+.workingMode {
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.clock {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,13 @@
+.address {
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+.location {
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-bottom: 60px;
+}
