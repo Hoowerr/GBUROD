@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Content from "./Content/Content";
 import About from "./Navbar/About/About";
 import Dispanser from "./Navbar/Dispanser/Dispanser";
@@ -9,7 +9,8 @@ import Signup from "./Navbar/Signup/Signup";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Link to="/"></Link>
       <Routes>
         <Route path="/" element={<Content />}>
           <Route index element={<div>Главная страница</div>} />
