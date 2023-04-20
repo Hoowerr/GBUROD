@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Content from "./Content/Content";
 import About from "./Navbar/About/About";
 import Dispanser from "./Navbar/Dispanser/Dispanser";
@@ -9,7 +9,7 @@ import Signup from "./Navbar/Signup/Signup";
 
 export default function App() {
   return (
-    <BrowserRouter basename="GBUROD">
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Content />}>
           <Route index element={<div>Главная страница</div>} />
@@ -21,6 +21,6 @@ export default function App() {
           <Route path="/signup" element={<Signup />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
