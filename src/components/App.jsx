@@ -9,9 +9,9 @@ import Signup from "./Navbar/Signup/Signup";
 
 export default function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
       <Routes>
-        <Route path="/" element={<Content />}>
+        <Route exact path="/" element={<Content />}>
           <Route index element={<div>Главная страница</div>} />
           <Route path="/about" element={<About />} />
           <Route path="/dispanser" element={<Dispanser />} />
