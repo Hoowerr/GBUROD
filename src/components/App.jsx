@@ -9,8 +9,7 @@ import Signup from "./Navbar/Signup/Signup";
 
 export default function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Link to="/"></Link>
+    <BrowserRouter basename="GBUROD">
       <Routes>
         <Route path="/" element={<Content />}>
           <Route index element={<div>Главная страница</div>} />
