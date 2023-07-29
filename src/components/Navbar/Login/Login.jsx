@@ -5,16 +5,16 @@ const Login = () => {
   return (
     <div>
       <form>
-        <h1>Login form</h1>
+        <h3>Войти на сайт</h3>
         <label>
-          Username:
+          Имя пользователя
           <input type="text" />
         </label>
         <label>
-          Password:
+          Пароль
           <input type="text" />
         </label>
-        <button type="submit">Login</button>
+        <button type="submit">Войти</button>
       </form>
     </div>
   );
