@@ -1,20 +1,20 @@
-import React from "react";
-import style from "../Navbar.module.css";
+import React from 'react';
+import style from '../Navbar.module.css';
 
 function Signup() {
   return (
     <div>
       <form>
-        <h1>Login form</h1>
+        <h3>Регистрация</h3>
         <label>
-          Username:
-          <input type="text" />
+          Имя пользователя
+          <input type='text' />
         </label>
         <label>
-          Password:
-          <input type="text" />
+          Пароль
+          <input type='text' />
         </label>
-        <button type="submit">Login</button>
+        <button type='submit'>Зарегистрироваться</button>
       </form>
     </div>
   );
